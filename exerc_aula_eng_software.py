@@ -15,14 +15,7 @@ def saudacao(nome):
 
 saudacao("guga")
 
-#================================================
-def calcular_quadrado(numero):
-  return numero * numero
 
-def calcular_soma(numero1, numero2):
-  soma = numero1 + numero2
-  print(f'A soma dos números {numero1} e {numero2} é de {soma}')
-  #=============================================================
 
   # Função principal
 def main(): # abre com main e tem que fechar lá embaixo
