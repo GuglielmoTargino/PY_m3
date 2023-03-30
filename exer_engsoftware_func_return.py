@@ -1,7 +1,12 @@
 
-# função com returno
+# função sem returno
 
-def calcular_quadrado(numero):
-  return numero * numero
+def calcular_media(x):
+  soma=0
+  for c in x:
+    soma+=c
+    print(soma/len(x))
 
-print(calcular_quadrado(2)) #coloca o valor 2 na função <calcular_quadrado> e chama.
+idade=[1,2,3,4]
+calcular_media(idade)
+
