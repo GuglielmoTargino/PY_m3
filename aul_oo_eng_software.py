@@ -13,8 +13,8 @@ class Cachorro():
     print(f'E a cor do pelo do cachorro é {self.cor_pelo}\n')
 rex = Cachorro('Rex', 'médio', 'Poodle', 'Branco')
 alice = Cachorro(nome = 'Alice', raca = 'Pitbull', porte = 'Grande', cor_pelo = 'Preta')
-café = Cachorro('Café', 'pequeno', 'Caramelo', 'Preto')
+café = Cachorro(nome='Café', raca='pequeno', porte='Caramelo', cor_pelo='Preto')
 # ----------------------
-rex.exibir_informacoes()
-alice.exibir_informacoes()
+#rex.exibir_informacoes()
+#alice.exibir_informacoes()
 café.exibir_informacoes()
