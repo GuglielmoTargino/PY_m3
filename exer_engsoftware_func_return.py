@@ -6,6 +6,7 @@ def calcular_media(x):
   for c in x:
     soma+=c
     print(soma/len(x))
+    print(c)
 
 idade=[1,2,3,4]
 calcular_media(idade)
