@@ -1,9 +1,10 @@
 #programa com tupla dentro de tupla.
 palavra=('carro','livro','pedra')
 
-print(f" a lista é {palavra}")
-for g in palavra:
-    if g in 'aeiou'
-    print(f"cada palavra é {g}")
-    
 
+for g in palavra:
+   print(f"a palavra é {g.upper()}")
+   for letra in g:
+     if letra in 'aeiou':
+    
+      print(f"as vogais são {letra}")
